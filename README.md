@@ -3,9 +3,16 @@
 ## Overview
 This study evaluates the effectiveness of complex-valued deep learning methods in extracting meaningful information from biological sequences, specifically comparing these methods against real-valued deep learning models using the same dataset. The comparative analysis covers three different forms of protein sequences: DNA, Codon, and Amino Acid.
 
-## Methodologies
-The project consists of two primary methodologies, each conducted as three sub-studies for different sequence types, followed by a comparative analysis using cross-validation.
+Steps for Each Study:
+- Data Import: Downloading protein sequences from NCBI as fasta.
+- Preprocessing: Synchronizing and labeling sequences.
+- Encoding: Digitizing and saving as a dataframe.
+- Classification: Using real-valued deep networks for classification.
+- Visualization: Displaying results with graphical representations.
 
+## The project consists of two primary methodologies (Complex and Real), each conducted as three sub-studies for different sequence types, followed by a comparative analysis using cross-validation.
+
+  
 # 1. Complex-Valued Neural Network Approach
 Description:
 Protein sequences (DNA, Codon, Amino Acid) are encoded into complex numbers using the proposed Complex Coding Method. These digitized sequences are then classified using Complex Artificial Neural Networks (ANNs), and their performance is benchmarked against Real-valued ANNs.
@@ -27,12 +34,7 @@ Kinase and GPCR protein sequences are encoded into real numbers using the intege
 # 3. Comparative Analysis
 - Study 7: Complex ANN vs. Real ANN - Using cross-validation, the performance of Complex and Real-valued ANNs are compared using metric averages for DNA, Codon and Amino Acid sequences. For 10 Fold, t-test is performed with the generated accuracy ratios.
 
-## Steps for Each Study
-- Data Import: Downloading protein sequences from NCBI as fasta.
-- Preprocessing: Synchronizing and labeling sequences.
-- Encoding: Digitizing and saving as a dataframe.
-- Classification: Using real-valued deep networks for classification.
-- Visualization: Displaying results with graphical representations.
+
 
 ## Technical Requirements
 The study is implemented using Python in Jupyter notebooks. Essential libraries include Keras, TensorFlow, pandas, and numpy, which need to be installed to replicate the study.
