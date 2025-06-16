@@ -36,5 +36,5 @@ Kinase and GPCR protein sequences are encoded into real numbers using the intege
 
 
 
-## Technical Requirements
-The study is implemented using Python in Jupyter notebooks. Essential libraries include Keras, TensorFlow, pandas, and numpy, which need to be installed to replicate the study.
+#### Technical and Development Notes:
+The applications of the study were carried out using the Python programming language in the Jupyter Notebook environment. During the code development process, deep learning libraries and code repositories such as Keras and TensorFlow were utilized. In the debugging and compilation stages of the developed code, the generative artificial intelligence tool ChatGPT-4o (version: 2024-05-13) was used solely for technical support purposes and within the framework of limited and full scientific responsibility principles, with its accuracy verified.
